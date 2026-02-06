@@ -1,0 +1,112 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.venv/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.pytest_cache
+
+# Logging
+*.log
+logs/
+
+# Session & Cache Files
+.cache/
+*.cache
+session_*.json
+sessions/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Local development
+local_settings.py
+.local/
+
+# API Keys & Secrets
+*.key
+*.pem
+*.p12
+secrets.json
+config.local.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node modules (if using npm for frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Static files temp
+.static/
+temp/
+tmp/
+
+# Compiled files
+*.pyc
+*.pyo
+*.class

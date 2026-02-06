@@ -1,5 +1,32 @@
+# FastAPI & Web Framework
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP Requests
 requests==2.31.0
+httpx==0.25.2
+
+# Environment Variables
 python-dotenv==1.0.0
+
+# Security & Validation
+python-multipart==0.0.6
+
+# Logging & Monitoring
+structlog==23.2.0
+
+# Rate Limiting
+slowapi==0.1.9
+
+# CORS
+fastapi-cors==0.0.6
+
+# Development Tools (optional, comment out for production)
+# black==23.12.0
+# flake8==6.1.0
+# mypy==1.7.1
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# isort==5.13.2
